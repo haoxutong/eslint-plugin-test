@@ -18,7 +18,7 @@ if (foo) {      /*error Expected { after 'else'.*/
 } else qux();
 var a = someFunction();
 b = 10;
-
+console.log(1);
 // if ("" == text) { } 
 // var o = {
 //     set a(value) {
