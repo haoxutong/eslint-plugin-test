@@ -1,5 +1,4 @@
-var config=require('./config.js');
-var file=require('./config_file.js');
+
 var2='test is over!!';//eslint-disable-line
 alert('who are you!!!');
 var foo = {
@@ -18,7 +17,7 @@ if (foo) {      /*error Expected { after 'else'.*/
 } else qux();
 var a = someFunction();
 b = 10;
-
+console.log(1);
 
 // if ("" == text) { } 
 // var o = {
@@ -29,7 +28,5 @@ b = 10;
 function foo() {
     if (x) {
         return y;
-    } else {            /*error Unexpected 'else' after 'return'.*/
-        return z;
     }
 }
