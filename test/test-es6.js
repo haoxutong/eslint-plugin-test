@@ -18,7 +18,6 @@ if (foo) {      /*error Expected { after 'else'.*/
 var a = someFunction();
 b = 10;
 console.log(1);
-console.log(2);
 
 // if ("" == text) { } 
 // var o = {
